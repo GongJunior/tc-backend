@@ -1,0 +1,2687 @@
+{
+    "responseContext": {
+        "serviceTrackingParams": [
+            {
+                "service": "CSI",
+                "params": [
+                    {
+                        "key": "c",
+                        "value": "WEB"
+                    },
+                    {
+                        "key": "cver",
+                        "value": "2.20240509.00.00"
+                    },
+                    {
+                        "key": "yt_li",
+                        "value": "1"
+                    },
+                    {
+                        "key": "GetVideoTranscript_rid",
+                        "value": "0x84406653e225d245"
+                    }
+                ]
+            },
+            {
+                "service": "GFEEDBACK",
+                "params": [
+                    {
+                        "key": "logged_in",
+                        "value": "1"
+                    },
+                    {
+                        "key": "e",
+                        "value": "23804281,23885490,23946420,23966208,23983296,23986028,23998056,24004644,24036948,24077241,24080738,24108447,24120819,24135310,24166867,24181174,24187377,24208765,24241378,24260378,24290971,24377598,24407446,24439361,24453989,24456090,24468724,24495712,24524562,24542367,24548627,24548629,24550458,24552800,24560416,24566687,24699899,39325762,39325854,39325971,51009781,51010235,51012659,51016856,51017346,51020570,51021190,51025415,51030103,51033765,51037344,51037353,51039200,51040836,51043775,51048489,51050361,51053689,51054765,51057848,51057853,51059572,51060353,51063643,51064835,51072748,51074183,51079239,51089175,51089441,51091331,51092661,51094175,51094178,51094197,51094202,51094205,51095478,51098297,51098299,51100401,51101169,51101454,51104988,51106995,51107338,51111738,51113658,51113661,51115184,51116067,51117318,51118932,51124104,51124406,51124413,51127505,51129178,51129419,51131737,51133103,51134733,51137042,51139118,51139379,51141800,51142676,51142884,51142891,51145219,51145258,51146962,51147059,51147415,51147560,51147719,51147728,51148976,51148983,51149607,51149740,51150504,51151737,51152050,51152207,51152530,51152833,51156385,51157410,51157430,51157432,51157838,51158470,51158514,51158535,51159171,51160545,51162170,51162343,51162384,51162722,51163637,51165466,51165567,51165592,51166562,51166922,51167065,51168225,51168248,51168280,51168918,51168926,51168967,51168970,51169034,51169117,51169258,51169260,51169338,51169780,51169947,51170247,51170375,51171439,51172670,51172688,51172693,51172700,51172705,51172712,51172721,51172728,51172963,51172971,51173132,51173803,51173891,51173924,51174254,51174430,51174435,51174473,51175606,51175733,51175791,51176135,51176670,51177012,51178120,51178310,51178331,51178346,51178355,51178490,51178983,51179278,51180639,51181954,51183506,51184105,51184113,51184160,51185184,51186212,51186627"
+                    }
+                ]
+            },
+            {
+                "service": "GUIDED_HELP",
+                "params": [
+                    {
+                        "key": "logged_in",
+                        "value": "1"
+                    }
+                ]
+            },
+            {
+                "service": "ECATCHER",
+                "params": [
+                    {
+                        "key": "client.version",
+                        "value": "2.20240509"
+                    },
+                    {
+                        "key": "client.name",
+                        "value": "WEB"
+                    }
+                ]
+            }
+        ],
+        "mainAppWebResponseContext": {
+            "datasyncId": "117877573528242073892||111863772023146753414",
+            "loggedOut": false,
+            "trackingParam": "kx_fmPxhoPZRWZE58dPVT0VW0Q6SYDEKAJGH0y7lI1eU45Eass0cwhLBwOcCE59TDtslLKPQ-SS"
+        },
+        "webResponseContextExtensionData": {
+            "hasDecorated": true
+        }
+    },
+    "actions": [
+        {
+            "clickTrackingParams": "CAAQw7wCIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+            "updateEngagementPanelAction": {
+                "targetId": "engagement-panel-searchable-transcript",
+                "content": {
+                    "transcriptRenderer": {
+                        "trackingParams": "CAEQ8bsCIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+                        "content": {
+                            "transcriptSearchPanelRenderer": {
+                                "header": {
+                                    "transcriptSearchBoxRenderer": {
+                                        "formattedPlaceholder": {
+                                            "runs": [
+                                                {
+                                                    "text": "Search in video"
+                                                }
+                                            ]
+                                        },
+                                        "accessibility": {
+                                            "accessibilityData": {
+                                                "label": "Search in video"
+                                            }
+                                        },
+                                        "clearButton": {
+                                            "buttonRenderer": {
+                                                "icon": {
+                                                    "iconType": "CLOSE"
+                                                },
+                                                "trackingParams": "CHUQyeAHIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+                                                "accessibilityData": {
+                                                    "accessibilityData": {
+                                                        "label": "Clear search query"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "onTextChangeCommand": {
+                                            "clickTrackingParams": "CHMQq9oHIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+                                            "commandMetadata": {
+                                                "webCommandMetadata": {
+                                                    "sendPost": true,
+                                                    "apiUrl": "/youtubei/v1/get_transcript"
+                                                }
+                                            },
+                                            "getTranscriptEndpoint": {
+                                                "params": "CgtCYnhqdlYzZDlwWRISQ2dOaGMzSVNBbVZ1R2dBJTNEGAEqM2VuZ2FnZW1lbnQtcGFuZWwtc2VhcmNoYWJsZS10cmFuc2NyaXB0LXNlYXJjaC1wYW5lbDAAOAFAAA%3D%3D"
+                                            }
+                                        },
+                                        "trackingParams": "CHMQq9oHIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+                                        "searchButton": {
+                                            "buttonRenderer": {
+                                                "trackingParams": "CHQQgoMIIhMIifLSrbuEhgMVr8ByCR1jiA6h"
+                                            }
+                                        }
+                                    }
+                                },
+                                "body": {
+                                    "transcriptSegmentListRenderer": {
+                                        "initialSegments": [
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "60",
+                                                    "endMs": "3300",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "on Thursday in a Dev question video I"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:00"
+                                                    },
+                                                    "trackingParams": "CHIQ0_YHGAAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "0 seconds on Thursday in a Dev question video I"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.60.3300"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "3300",
+                                                    "endMs": "5220",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "answered the question what is a back-end"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:03"
+                                                    },
+                                                    "trackingParams": "CHEQ0_YHGAEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 seconds answered the question what is a back-end"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.3300.5220"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "5220",
+                                                    "endMs": "8040",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "developer and what do they do yesterday"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:05"
+                                                    },
+                                                    "trackingParams": "CHAQ0_YHGAIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "5 seconds developer and what do they do yesterday"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.5220.8040"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "8040",
+                                                    "endMs": "10320",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "I showed you how to become a back-end"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:08"
+                                                    },
+                                                    "trackingParams": "CG8Q0_YHGAMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "8 seconds I showed you how to become a back-end"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.8040.10320"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "10320",
+                                                    "endMs": "12840",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "developer with C sharp and today it's"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:10"
+                                                    },
+                                                    "trackingParams": "CG4Q0_YHGAQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "10 seconds developer with C sharp and today it's"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.10320.12840"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "12840",
+                                                    "endMs": "14880",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "time to challenge your skills in"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:12"
+                                                    },
+                                                    "trackingParams": "CG0Q0_YHGAUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "12 seconds time to challenge your skills in"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.12840.14880"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "14880",
+                                                    "endMs": "17279",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "back-end development with c-sharp while"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:14"
+                                                    },
+                                                    "trackingParams": "CGwQ0_YHGAYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "14 seconds back-end development with c-sharp while"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.14880.17279"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "17279",
+                                                    "endMs": "18720",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "you've been using c-sharp for a long"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:17"
+                                                    },
+                                                    "trackingParams": "CGsQ0_YHGAciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "17 seconds you've been using c-sharp for a long"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.17279.18720"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "18720",
+                                                    "endMs": "20640",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "time or just started working with it"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:18"
+                                                    },
+                                                    "trackingParams": "CGoQ0_YHGAgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "18 seconds time or just started working with it"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.18720.20640"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "20640",
+                                                    "endMs": "22199",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this challenge should teach you"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:20"
+                                                    },
+                                                    "trackingParams": "CGkQ0_YHGAkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "20 seconds this challenge should teach you"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.20640.22199"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "22199",
+                                                    "endMs": "24180",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "something about where your skills are at"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:22"
+                                                    },
+                                                    "trackingParams": "CGgQ0_YHGAoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "22 seconds something about where your skills are at"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.22199.24180"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "24180",
+                                                    "endMs": "26640",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "and what you still need to work on so"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:24"
+                                                    },
+                                                    "trackingParams": "CGcQ0_YHGAsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "24 seconds and what you still need to work on so"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.24180.26640"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "26640",
+                                                    "endMs": "28980",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "let's jump right into the challenge"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:26"
+                                                    },
+                                                    "trackingParams": "CGYQ0_YHGAwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "26 seconds let's jump right into the challenge"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.26640.28980"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "28980",
+                                                    "endMs": "32340",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "the challenge is to build a capture or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:28"
+                                                    },
+                                                    "trackingParams": "CGUQ0_YHGA0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "28 seconds the challenge is to build a capture or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.28980.32340"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "32340",
+                                                    "endMs": "35280",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "build a system to capture purchase data"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:32"
+                                                    },
+                                                    "trackingParams": "CGQQ0_YHGA4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "32 seconds build a system to capture purchase data"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.32340.35280"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "35280",
+                                                    "endMs": "36840",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "from a caller"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:35"
+                                                    },
+                                                    "trackingParams": "CGMQ0_YHGA8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "35 seconds from a caller"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.35280.36840"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "36840",
+                                                    "endMs": "38520",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "store the data in a database now I'll"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:36"
+                                                    },
+                                                    "trackingParams": "CGIQ0_YHGBAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "36 seconds store the data in a database now I'll"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.36840.38520"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "38520",
+                                                    "endMs": "39780",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "pause right here"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:38"
+                                                    },
+                                                    "trackingParams": "CGEQ0_YHGBEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "38 seconds pause right here"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.38520.39780"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "39780",
+                                                    "endMs": "43020",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this is vague wording because again I"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:39"
+                                                    },
+                                                    "trackingParams": "CGAQ0_YHGBIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "39 seconds this is vague wording because again I"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.39780.43020"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "43020",
+                                                    "endMs": "44879",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "have tried to keep this as open as"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:43"
+                                                    },
+                                                    "trackingParams": "CF8Q0_YHGBMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "43 seconds have tried to keep this as open as"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.43020.44879"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "44879",
+                                                    "endMs": "48300",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "possible you could be building an API or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:44"
+                                                    },
+                                                    "trackingParams": "CF4Q0_YHGBQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "44 seconds possible you could be building an API or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.44879.48300"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "48300",
+                                                    "endMs": "50700",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "you could be playing a class Library"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:48"
+                                                    },
+                                                    "trackingParams": "CF0Q0_YHGBUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "48 seconds you could be playing a class Library"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.48300.50700"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "50700",
+                                                    "endMs": "54420",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "it's up to you how you want to capture"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:50"
+                                                    },
+                                                    "trackingParams": "CFwQ0_YHGBYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "50 seconds it's up to you how you want to capture"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.50700.54420"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "54420",
+                                                    "endMs": "57960",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this purchase data from a caller okay so"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:54"
+                                                    },
+                                                    "trackingParams": "CFsQ0_YHGBciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "54 seconds this purchase data from a caller okay so"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.54420.57960"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "57960",
+                                                    "endMs": "59940",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "build a system to capture purchase data"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:57"
+                                                    },
+                                                    "trackingParams": "CFoQ0_YHGBgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "57 seconds build a system to capture purchase data"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.57960.59940"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "59940",
+                                                    "endMs": "62100",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "from a caller store the data and"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "0:59"
+                                                    },
+                                                    "trackingParams": "CFkQ0_YHGBkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "59 seconds from a caller store the data and"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.59940.62100"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "62100",
+                                                    "endMs": "63420",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "database"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:02"
+                                                    },
+                                                    "trackingParams": "CFgQ0_YHGBoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 2 seconds database"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.62100.63420"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "63420",
+                                                    "endMs": "66900",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "if there's a duplicate user update their"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:03"
+                                                    },
+                                                    "trackingParams": "CFcQ0_YHGBsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 3 seconds if there's a duplicate user update their"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.63420.66900"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "66900",
+                                                    "endMs": "69479",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "data instead of adding a new record so"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:06"
+                                                    },
+                                                    "trackingParams": "CFYQ0_YHGBwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 6 seconds data instead of adding a new record so"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.66900.69479"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "69479",
+                                                    "endMs": "73439",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "let's say I purchase a book you take the"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:09"
+                                                    },
+                                                    "trackingParams": "CFUQ0_YHGB0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 9 seconds let's say I purchase a book you take the"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.69479.73439"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "73439",
+                                                    "endMs": "75540",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "information and store the database Tim"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:13"
+                                                    },
+                                                    "trackingParams": "CFQQ0_YHGB4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 13 seconds information and store the database Tim"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.73439.75540"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "75540",
+                                                    "endMs": "77220",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "purchased a book"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:15"
+                                                    },
+                                                    "trackingParams": "CFMQ0_YHGB8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 15 seconds purchased a book"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.75540.77220"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "77220",
+                                                    "endMs": "82200",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "then let's say that Sue purchases a a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:17"
+                                                    },
+                                                    "trackingParams": "CFIQ0_YHGCAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 17 seconds then let's say that Sue purchases a a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.77220.82200"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "82200",
+                                                    "endMs": "83100",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "t-shirt"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:22"
+                                                    },
+                                                    "trackingParams": "CFEQ0_YHGCEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 22 seconds t-shirt"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.82200.83100"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "83100",
+                                                    "endMs": "85500",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "so you put that information database new"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:23"
+                                                    },
+                                                    "trackingParams": "CFAQ0_YHGCIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 23 seconds so you put that information database new"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.83100.85500"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "85500",
+                                                    "endMs": "88560",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "record Sue purchased a t-shirt now let's"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:25"
+                                                    },
+                                                    "trackingParams": "CE8Q0_YHGCMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 25 seconds record Sue purchased a t-shirt now let's"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.85500.88560"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "88560",
+                                                    "endMs": "90659",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "say I purchased a t-shirt"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:28"
+                                                    },
+                                                    "trackingParams": "CE4Q0_YHGCQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 28 seconds say I purchased a t-shirt"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.88560.90659"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "90659",
+                                                    "endMs": "92759",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "so you'd say okay well Tim already has a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:30"
+                                                    },
+                                                    "trackingParams": "CE0Q0_YHGCUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 30 seconds so you'd say okay well Tim already has a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.90659.92759"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "92759",
+                                                    "endMs": "95460",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "record in the database so let's just add"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:32"
+                                                    },
+                                                    "trackingParams": "CEwQ0_YHGCYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 32 seconds record in the database so let's just add"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.92759.95460"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "95460",
+                                                    "endMs": "98939",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "purchase a t-shirt into Tim's record or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:35"
+                                                    },
+                                                    "trackingParams": "CEsQ0_YHGCciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 35 seconds purchase a t-shirt into Tim's record or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.95460.98939"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "98939",
+                                                    "endMs": "102000",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "in some way associate with my existing"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:38"
+                                                    },
+                                                    "trackingParams": "CEoQ0_YHGCgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 38 seconds in some way associate with my existing"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.98939.102000"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "102000",
+                                                    "endMs": "105000",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "uh record that way you don't have two"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:42"
+                                                    },
+                                                    "trackingParams": "CEkQ0_YHGCkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 42 seconds uh record that way you don't have two"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.102000.105000"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "105000",
+                                                    "endMs": "106979",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "different entries for Tim in the"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:45"
+                                                    },
+                                                    "trackingParams": "CEgQ0_YHGCoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 45 seconds different entries for Tim in the"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.105000.106979"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "106979",
+                                                    "endMs": "110880",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "database okay so that's your goal for"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:46"
+                                                    },
+                                                    "trackingParams": "CEcQ0_YHGCsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 46 seconds database okay so that's your goal for"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.106979.110880"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "110880",
+                                                    "endMs": "113159",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "building a system again it's up to you"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:50"
+                                                    },
+                                                    "trackingParams": "CEYQ0_YHGCwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 50 seconds building a system again it's up to you"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.110880.113159"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "113159",
+                                                    "endMs": "115740",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "how you build it and what part of C"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:53"
+                                                    },
+                                                    "trackingParams": "CEUQ0_YHGC0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 53 seconds how you build it and what part of C"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.113159.115740"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "115740",
+                                                    "endMs": "117240",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "sharp you build it in what type of"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:55"
+                                                    },
+                                                    "trackingParams": "CEQQ0_YHGC4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 55 seconds sharp you build it in what type of"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.115740.117240"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "117240",
+                                                    "endMs": "119880",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "project you use with the class Library"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:57"
+                                                    },
+                                                    "trackingParams": "CEMQ0_YHGC8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 57 seconds project you use with the class Library"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.117240.119880"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "119880",
+                                                    "endMs": "122460",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "if it is that's great but you might want"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "1:59"
+                                                    },
+                                                    "trackingParams": "CEIQ0_YHGDAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "1 minute, 59 seconds if it is that's great but you might want"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.119880.122460"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "122460",
+                                                    "endMs": "123899",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "to write some unit tests or something to"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:02"
+                                                    },
+                                                    "trackingParams": "CEEQ0_YHGDEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 2 seconds to write some unit tests or something to"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.122460.123899"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "123899",
+                                                    "endMs": "125759",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "verify that actually works"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:03"
+                                                    },
+                                                    "trackingParams": "CEAQ0_YHGDIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 3 seconds verify that actually works"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.123899.125759"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "125759",
+                                                    "endMs": "129599",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "um or an API and maybe write the"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:05"
+                                                    },
+                                                    "trackingParams": "CD8Q0_YHGDMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 5 seconds um or an API and maybe write the"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.125759.129599"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "129599",
+                                                    "endMs": "132780",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "um the HTTP file to test your API"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:09"
+                                                    },
+                                                    "trackingParams": "CD4Q0_YHGDQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 9 seconds um the HTTP file to test your API"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.129599.132780"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "132780",
+                                                    "endMs": "137099",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "um or whatever you decide for how you're"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:12"
+                                                    },
+                                                    "trackingParams": "CD0Q0_YHGDUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 12 seconds um or whatever you decide for how you're"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.132780.137099"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "137099",
+                                                    "endMs": "139319",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "going to capture purchase data from the"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:17"
+                                                    },
+                                                    "trackingParams": "CDwQ0_YHGDYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 17 seconds going to capture purchase data from the"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.137099.139319"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "139319",
+                                                    "endMs": "141540",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "caller and that color you're going to"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:19"
+                                                    },
+                                                    "trackingParams": "CDsQ0_YHGDciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 19 seconds caller and that color you're going to"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.139319.141540"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "141540",
+                                                    "endMs": "143340",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "make up the purchase that it's sending"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:21"
+                                                    },
+                                                    "trackingParams": "CDoQ0_YHGDgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 21 seconds make up the purchase that it's sending"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.141540.143340"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "143340",
+                                                    "endMs": "145200",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "in but I want you to store this in a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:23"
+                                                    },
+                                                    "trackingParams": "CDkQ0_YHGDkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 23 seconds in but I want you to store this in a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.143340.145200"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "145200",
+                                                    "endMs": "147239",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "database and again which database up to"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:25"
+                                                    },
+                                                    "trackingParams": "CDgQ0_YHGDoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 25 seconds database and again which database up to"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.145200.147239"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "147239",
+                                                    "endMs": "149700",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "you do you want nosql database like"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:27"
+                                                    },
+                                                    "trackingParams": "CDcQ0_YHGDsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 27 seconds you do you want nosql database like"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.147239.149700"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "149700",
+                                                    "endMs": "152640",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": " or Cosmos cool do you want a SQL"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:29"
+                                                    },
+                                                    "trackingParams": "CDYQ0_YHGDwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 29 seconds  or Cosmos cool do you want a SQL"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.149700.152640"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "152640",
+                                                    "endMs": "155640",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "database like SQL server or SQL Lite or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:32"
+                                                    },
+                                                    "trackingParams": "CDUQ0_YHGD0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 32 seconds database like SQL server or SQL Lite or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.152640.155640"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "155640",
+                                                    "endMs": "158819",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "MySQL cool go for it up to you you"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:35"
+                                                    },
+                                                    "trackingParams": "CDQQ0_YHGD4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 35 seconds MySQL cool go for it up to you you"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.155640.158819"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "158819",
+                                                    "endMs": "161400",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "choose what you want to do all right so"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:38"
+                                                    },
+                                                    "trackingParams": "CDMQ0_YHGD8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 38 seconds choose what you want to do all right so"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.158819.161400"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "161400",
+                                                    "endMs": "163860",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "it's up to you but I want you to take on"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:41"
+                                                    },
+                                                    "trackingParams": "CDIQ0_YHGEAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 41 seconds it's up to you but I want you to take on"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.161400.163860"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "163860",
+                                                    "endMs": "166980",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this Challenge and as I said before it's"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:43"
+                                                    },
+                                                    "trackingParams": "CDEQ0_YHGEEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 43 seconds this Challenge and as I said before it's"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.163860.166980"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "166980",
+                                                    "endMs": "169860",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "important that you put the effort in to"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:46"
+                                                    },
+                                                    "trackingParams": "CDAQ0_YHGEIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 46 seconds important that you put the effort in to"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.166980.169860"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "169860",
+                                                    "endMs": "172140",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "get this challenge done rather than just"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:49"
+                                                    },
+                                                    "trackingParams": "CC8Q0_YHGEMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 49 seconds get this challenge done rather than just"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.169860.172140"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "172140",
+                                                    "endMs": "174000",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "wait until Friday when I release my"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:52"
+                                                    },
+                                                    "trackingParams": "CC4Q0_YHGEQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 52 seconds wait until Friday when I release my"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.172140.174000"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "174000",
+                                                    "endMs": "177300",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "solution video because just watching a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:54"
+                                                    },
+                                                    "trackingParams": "CC0Q0_YHGEUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 54 seconds solution video because just watching a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.174000.177300"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "177300",
+                                                    "endMs": "179220",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "solution video is going to give you a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:57"
+                                                    },
+                                                    "trackingParams": "CCwQ0_YHGEYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 57 seconds solution video is going to give you a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.177300.179220"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "179220",
+                                                    "endMs": "181080",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "kind of a warm fuzzy feeling of oh I"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "2:59"
+                                                    },
+                                                    "trackingParams": "CCsQ0_YHGEciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "2 minutes, 59 seconds kind of a warm fuzzy feeling of oh I"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.179220.181080"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "181080",
+                                                    "endMs": "184500",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "understand this now probably but that's"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:01"
+                                                    },
+                                                    "trackingParams": "CCoQ0_YHGEgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 1 second understand this now probably but that's"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.181080.184500"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "184500",
+                                                    "endMs": "187260",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "not really what the way to get the most"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:04"
+                                                    },
+                                                    "trackingParams": "CCkQ0_YHGEkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 4 seconds not really what the way to get the most"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.184500.187260"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "187260",
+                                                    "endMs": "190260",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "information out of this process the way"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:07"
+                                                    },
+                                                    "trackingParams": "CCgQ0_YHGEoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 7 seconds information out of this process the way"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.187260.190260"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "190260",
+                                                    "endMs": "192420",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "to get the most information out is for"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:10"
+                                                    },
+                                                    "trackingParams": "CCcQ0_YHGEsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 10 seconds to get the most information out is for"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.190260.192420"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "192420",
+                                                    "endMs": "194519",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "you to do it first yourself even if that"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:12"
+                                                    },
+                                                    "trackingParams": "CCYQ0_YHGEwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 12 seconds you to do it first yourself even if that"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.192420.194519"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "194519",
+                                                    "endMs": "196019",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "means holding off and watching a"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:14"
+                                                    },
+                                                    "trackingParams": "CCUQ0_YHGE0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 14 seconds means holding off and watching a"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.194519.196019"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "196019",
+                                                    "endMs": "198739",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "solution video until after you've really"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:16"
+                                                    },
+                                                    "trackingParams": "CCQQ0_YHGE4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 16 seconds solution video until after you've really"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.196019.198739"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "198739",
+                                                    "endMs": "201060",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "figured out how I make this work and I"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:18"
+                                                    },
+                                                    "trackingParams": "CCMQ0_YHGE8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 18 seconds figured out how I make this work and I"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.198739.201060"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "201060",
+                                                    "endMs": "203640",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "have written your own application now"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:21"
+                                                    },
+                                                    "trackingParams": "CCIQ0_YHGFAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 21 seconds have written your own application now"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.201060.203640"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "203640",
+                                                    "endMs": "204959",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this one doesn't have to be pretty"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:23"
+                                                    },
+                                                    "trackingParams": "CCEQ0_YHGFEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 23 seconds this one doesn't have to be pretty"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.203640.204959"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "204959",
+                                                    "endMs": "208080",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "because there's no UI but this one does"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:24"
+                                                    },
+                                                    "trackingParams": "CCAQ0_YHGFIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 24 seconds because there's no UI but this one does"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.204959.208080"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "208080",
+                                                    "endMs": "211319",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "have to be functionally correct meaning"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:28"
+                                                    },
+                                                    "trackingParams": "CB8Q0_YHGFMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 28 seconds have to be functionally correct meaning"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.208080.211319"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "211319",
+                                                    "endMs": "213120",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "I will make sure that you're thinking"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:31"
+                                                    },
+                                                    "trackingParams": "CB4Q0_YHGFQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 31 seconds I will make sure that you're thinking"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.211319.213120"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "213120",
+                                                    "endMs": "217040",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "through things like data input errors or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:33"
+                                                    },
+                                                    "trackingParams": "CB0Q0_YHGFUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 33 seconds through things like data input errors or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.213120.217040"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "217040",
+                                                    "endMs": "220379",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "information is wrong or checking that"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:37"
+                                                    },
+                                                    "trackingParams": "CBwQ0_YHGFYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 37 seconds information is wrong or checking that"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.217040.220379"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "220379",
+                                                    "endMs": "222659",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "the duplicates come in and not as"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:40"
+                                                    },
+                                                    "trackingParams": "CBsQ0_YHGFciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 40 seconds the duplicates come in and not as"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.220379.222659"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "222659",
+                                                    "endMs": "224879",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "duplicates and all other information"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:42"
+                                                    },
+                                                    "trackingParams": "CBoQ0_YHGFgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 42 seconds duplicates and all other information"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.222659.224879"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "224879",
+                                                    "endMs": "227099",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "that could go wrong make sure you test"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:44"
+                                                    },
+                                                    "trackingParams": "CBkQ0_YHGFkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 44 seconds that could go wrong make sure you test"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.224879.227099"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "227099",
+                                                    "endMs": "230159",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "for it in your final product make sure"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:47"
+                                                    },
+                                                    "trackingParams": "CBgQ0_YHGFoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 47 seconds for it in your final product make sure"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.227099.230159"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "230159",
+                                                    "endMs": "232799",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "it's actually going to work and not just"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:50"
+                                                    },
+                                                    "trackingParams": "CBcQ0_YHGFsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 50 seconds it's actually going to work and not just"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.230159.232799"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "232799",
+                                                    "endMs": "235319",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "for you know the easy stuff make sure"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:52"
+                                                    },
+                                                    "trackingParams": "CBYQ0_YHGFwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 52 seconds for you know the easy stuff make sure"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.232799.235319"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "235319",
+                                                    "endMs": "238260",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "that you throw some curveballs at it and"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:55"
+                                                    },
+                                                    "trackingParams": "CBUQ0_YHGF0iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 55 seconds that you throw some curveballs at it and"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.235319.238260"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "238260",
+                                                    "endMs": "240120",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "make sure it still stands up and it"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "3:58"
+                                                    },
+                                                    "trackingParams": "CBQQ0_YHGF4iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "3 minutes, 58 seconds make sure it still stands up and it"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.238260.240120"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "240120",
+                                                    "endMs": "242819",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "still works correctly okay the way you"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:00"
+                                                    },
+                                                    "trackingParams": "CBMQ0_YHGF8iEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes still works correctly okay the way you"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.240120.242819"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "242819",
+                                                    "endMs": "245099",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "do is up to you but you really need to"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:02"
+                                                    },
+                                                    "trackingParams": "CBIQ0_YHGGAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 2 seconds do is up to you but you really need to"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.242819.245099"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "245099",
+                                                    "endMs": "247680",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "show off your skills as a back-end"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:05"
+                                                    },
+                                                    "trackingParams": "CBEQ0_YHGGEiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 5 seconds show off your skills as a back-end"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.245099.247680"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "247680",
+                                                    "endMs": "250200",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "developer here so you can do a lot of"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:07"
+                                                    },
+                                                    "trackingParams": "CBAQ0_YHGGIiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 7 seconds developer here so you can do a lot of"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.247680.250200"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "250200",
+                                                    "endMs": "251220",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "different things with logging or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:10"
+                                                    },
+                                                    "trackingParams": "CA8Q0_YHGGMiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 10 seconds different things with logging or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.250200.251220"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "251220",
+                                                    "endMs": "253379",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "dependency injection or the way you"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:11"
+                                                    },
+                                                    "trackingParams": "CA4Q0_YHGGQiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 11 seconds dependency injection or the way you"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.251220.253379"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "253379",
+                                                    "endMs": "255420",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "structure your application or"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:13"
+                                                    },
+                                                    "trackingParams": "CA0Q0_YHGGUiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 13 seconds structure your application or"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.253379.255420"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "255420",
+                                                    "endMs": "257400",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "how it's built whatever you want to do"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:15"
+                                                    },
+                                                    "trackingParams": "CAwQ0_YHGGYiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 15 seconds how it's built whatever you want to do"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.255420.257400"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "257400",
+                                                    "endMs": "259799",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "but think through how you want to build"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:17"
+                                                    },
+                                                    "trackingParams": "CAsQ0_YHGGciEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 17 seconds but think through how you want to build"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.257400.259799"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "259799",
+                                                    "endMs": "262800",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "this to best show off what you can do as"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:19"
+                                                    },
+                                                    "trackingParams": "CAoQ0_YHGGgiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 19 seconds this to best show off what you can do as"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.259799.262800"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "262800",
+                                                    "endMs": "266850",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "a back-end developer all right get to it"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:22"
+                                                    },
+                                                    "trackingParams": "CAkQ0_YHGGkiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 22 seconds a back-end developer all right get to it"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.262800.266850"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "266850",
+                                                    "endMs": "280269",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "[Music]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:26"
+                                                    },
+                                                    "trackingParams": "CAgQ0_YHGGoiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 26 seconds [Music]"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.266850.280269"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "280780",
+                                                    "endMs": "283990",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "[Applause]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:40"
+                                                    },
+                                                    "trackingParams": "CAcQ0_YHGGsiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 40 seconds [Applause]"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.280780.283990"
+                                                }
+                                            },
+                                            {
+                                                "transcriptSegmentRenderer": {
+                                                    "startMs": "284260",
+                                                    "endMs": "287540",
+                                                    "snippet": {
+                                                        "runs": [
+                                                            {
+                                                                "text": "[Music]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "startTimeText": {
+                                                        "simpleText": "4:44"
+                                                    },
+                                                    "trackingParams": "CAYQ0_YHGGwiEwiJ8tKtu4SGAxWvwHIJHWOIDqE=",
+                                                    "accessibility": {
+                                                        "accessibilityData": {
+                                                            "label": "4 minutes, 44 seconds [Music]"
+                                                        }
+                                                    },
+                                                    "targetId": "BbxjvV3d9pY.CgNhc3ISAmVuGgA%3D.284260.287540"
+                                                }
+                                            }
+                                        ],
+                                        "noResultLabel": {
+                                            "runs": [
+                                                {
+                                                    "text": "No results found"
+                                                }
+                                            ]
+                                        },
+                                        "retryLabel": {
+                                            "runs": [
+                                                {
+                                                    "text": "TAP TO RETRY"
+                                                }
+                                            ]
+                                        },
+                                        "touchCaptionsEnabled": false
+                                    }
+                                },
+                                "footer": {
+                                    "transcriptFooterRenderer": {
+                                        "languageMenu": {
+                                            "sortFilterSubMenuRenderer": {
+                                                "subMenuItems": [
+                                                    {
+                                                        "title": "English (auto-generated)",
+                                                        "selected": true,
+                                                        "continuation": {
+                                                            "reloadContinuationData": {
+                                                                "continuation": "CgtCYnhqdlYzZDlwWRISQ2dOaGMzSVNBbVZ1R2dBJTNEGAEqM2VuZ2FnZW1lbnQtcGFuZWwtc2VhcmNoYWJsZS10cmFuc2NyaXB0LXNlYXJjaC1wYW5lbDAAOAFAAA%3D%3D",
+                                                                "clickTrackingParams": "CAUQxqYCIhMIifLSrbuEhgMVr8ByCR1jiA6h"
+                                                            }
+                                                        },
+                                                        "trackingParams": "CAQQ48AHGAAiEwiJ8tKtu4SGAxWvwHIJHWOIDqE="
+                                                    }
+                                                ],
+                                                "trackingParams": "CAMQgdoEIhMIifLSrbuEhgMVr8ByCR1jiA6h"
+                                            }
+                                        }
+                                    }
+                                },
+                                "trackingParams": "CAIQ8bsCIhMIifLSrbuEhgMVr8ByCR1jiA6h",
+                                "targetId": "engagement-panel-searchable-transcript-search-panel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "trackingParams": "CAAQw7wCIhMIifLSrbuEhgMVr8ByCR1jiA6h"
+}
